@@ -134,3 +134,23 @@ The verbose mode will produce additional information:
 mpirun -n Np sombrero/sombrero3 -s medium -v verbose 
 ```
 
+
+
+<h1>How use?</h1>
+
+1) cd sombrero-master
+
+2) nano Make/MkFlags
+
+white in file:
+"
+MPICC = mpicc
+CFLAGS = -std=c99 -O3
+"
+
+3) make
+
+4) ./sombrero.sh -n <num-cores>  [ -w ] [ -s small | medium | large | very_large ]
+
+Example:
+./sombrero.sh -n 1 -s small 

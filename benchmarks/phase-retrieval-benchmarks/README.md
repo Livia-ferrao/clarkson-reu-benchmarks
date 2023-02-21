@@ -32,3 +32,13 @@ Example:
 Solutions are written to a file named sol (M x M table of floats).
 
 Send comments, bug reports, to: ve10@cornell.edu
+
+
+
+<h1>How use?</h1>
+
+1) sudo yum update 
+2) sudo yum install fftw-devel fftw-doc  
+3) mpicc -O2 RRR.c -lm -L/usr/lib -lfftw3 -o RRR
+4) mpirun ./RRR data/data100E 800 .95 .5 1000 5 results100E &
+5) cat results100E

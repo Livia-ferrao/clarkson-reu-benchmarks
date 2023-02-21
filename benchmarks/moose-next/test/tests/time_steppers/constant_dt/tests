@@ -1,8 +1,0 @@
-[Tests]
-  [./constant_dt]
-    type = 'Exodiff'
-    input = 'constant_dt.i'
-    exodiff = 'constant_dt_out.e'
-    group = 'requirements'
-  [../]
-[]

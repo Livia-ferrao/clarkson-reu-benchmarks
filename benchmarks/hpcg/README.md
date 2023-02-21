@@ -83,3 +83,14 @@ Known problems and bugs with this release are documented in the file
 
 Check out  the website  http://www.hpcg-benchmark.org/ for the latest
 information and performance results.
+
+
+
+<h1>How use?</h1>
+
+1) mkdir build
+2) cd build
+3) ../configure Linux_MPI
+4) make                         
+5) cd bin
+6) mpirun -np 8 ./xhpcg 32 24 16

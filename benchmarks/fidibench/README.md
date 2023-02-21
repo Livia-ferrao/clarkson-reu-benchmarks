@@ -47,3 +47,14 @@ Some tests will not run if there are missing components, eg Julia scripts will n
 julia is not installed on your platform.
 
 
+
+<h1>How use?</h1>
+1) sudo yum install cmake -y
+2) cd fidibench
+3) mkdir build
+4) cd build
+5) cmake ..
+6) make
+7) ctest
+8) cd Testing/Temporary
+9) cat LastTest.log

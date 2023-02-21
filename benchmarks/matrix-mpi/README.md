@@ -12,3 +12,19 @@ It also includes a second mode that uses asynchronous Send/Recv facilities. Base
 To use, please read the main.c file and compile with the correct macros turned on (use macros to specify SIZE and MODE).
 
 Copyright &copy; Rui-Jie Fang, 2018.
+
+
+<h1>How use?</h1>
+
+1) sudo yum install cmake
+
+2) cmake .
+
+3) make
+
+5) mpirun -np [ x ] ./main [ N ]
+
+-np: 2, 4, 8, 16...
+N: 2, 4, 8, 16...
+
+

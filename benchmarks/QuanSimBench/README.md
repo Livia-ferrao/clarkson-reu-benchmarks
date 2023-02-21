@@ -47,3 +47,13 @@ The code contains comments with hints to optional addition of OpenMP as well.
 3. Submit your results to [QuanSimBench Submission](https://docs.google.com/forms/d/e/1FAIpQLSeVwp_4FZJWyS5UsfBrtxq8PXkKJLoRvgHkpfTuOuJ-wcudiw/viewform?usp=sf_link).
 
 4. The results will soon be posted on our GitHub site.
+
+
+
+<h1>How use?</h1>
+
+1) mpicc -Ofast -DMAXQUBITS=20 quansimbench.c -o quansimbench -lm
+
+It's defining max amount of QUBITS = 20
+
+2) mpirun -np [ x ] ./quansimbench
