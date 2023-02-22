@@ -50,11 +50,10 @@ julia is not installed on your platform.
 
 <h1>How use?</h1>
 1) sudo yum install cmake -y
-2) cd fidibench
-3) mkdir build
-4) cd build
-5) cmake ..
-6) make
-7) ctest
-8) cd Testing/Temporary
-9) cat LastTest.log
+2) mkdir build
+3) cd build
+4) cmake ..
+5) make
+6) ctest
+7) cd Testing/Temporary
+8) cat LastTest.log

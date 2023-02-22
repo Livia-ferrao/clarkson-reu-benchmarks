@@ -3,7 +3,7 @@
 
 In /src directory:
 
-1) Make
+1) make mpi
 
 2) mpirun -np [ x ] ./mpi-2dheat.x -t -w [ x ] -h [ x ] -m 3 -e 3.0
 
