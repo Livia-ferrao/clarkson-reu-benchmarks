@@ -49,6 +49,9 @@ julia is not installed on your platform.
 
 
 <h1>How use?</h1>
+
+* Only MPI test is working 
+
 1) sudo yum install cmake -y
 2) mkdir build
 3) cd build
