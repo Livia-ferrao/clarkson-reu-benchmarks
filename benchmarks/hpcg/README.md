@@ -94,3 +94,4 @@ information and performance results.
 4) make                         
 5) cd bin
 6) mpirun -np 8 ./xhpcg 32 24 16
+7) Results in HPCG-Benchmark....txt - search for Benchmark Time Summary - Total 
